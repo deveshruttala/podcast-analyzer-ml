@@ -43,6 +43,10 @@ Librosa is an open-source Python library that has almost everything you need for
 
 <br>
 
+```
+git clone https://github.com/deveshruttala/podcast-analyzer-ml.git
+```
+
 #### Conclusion and credits
 
 In the ever world of ai, audio analysis will become crucial part. this podcast analysis may be a smaller implemetaion of the audio function we can make alot of uses from it later on. <br>

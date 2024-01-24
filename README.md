@@ -32,13 +32,13 @@ It’s a powerful tool to separate voiced and unvoiced segments.
 <br>
 Root mean square energy (RMSE) gives you an understanding of the average energy of the signal. It can be computed from a waveform or a spectrogram. In the first case, you’ll get results faster. Yet, a spectrogram provides a more accurate representation of energy over time. RMSE is particularly useful for audio segmentation and music genre classification.
 <br>
-Zero-crossing Rate (ZCR) counts how many times the signal wave crosses the horizontal axis within a frame. It’s one of the most important acoustic features, widely used to detect the presence or absence of speech, and differentiate noise from silence and music from speech.
+Zero-crossing Rate (ZCR) counts how many times the signal wave crosses the horizontal axis within a frame. It’s one of the most important acoustic features, widely used to detect the presence or absence of speech and differentiate noise from silence and music from speech.
 Frequency domain features.
 One of the most popular groups of time-frequency domain features is mel-frequency cepstral coefficients (MFCCs). They work within the human hearing range and as such are based on the mel scale and mel spectrograms we discussed earlier.
 
 No surprise that the initial application of MFCCs is speech and voice recognition. But they also proved to be effective for music processing and acoustic diagnostics for medical purposes, including snoring detection. For example, one of the recent deep learning models developed by the School of Engineering (Eastern Michigan University) was trained on 1000 MFCC images (spectrograms) of snoring sounds.<br>
-<br> Audio analysiss software for ml use: <br>
-Tensorflow-io package for preparation and augmentation of audio data lets you perform a wide range of operations — noise removal, converting waveforms to spectrograms, frequency, and time masking to make the sound clearly audible, and more. The tool belongs to the open-source TensorFlow ecosystem, covering end-to-end machine learning workflow. So, after preprocessing you can train an ML model on the same platform.<br>
+<br> Audio analysis software for ml use: <br><br>
+Tensorflow-io package for preparation and augmentation of audio data lets you perform a wide range of operations — noise removal, converting waveforms to spectrograms, frequency, and time masking to make the sound audible, and more. The tool belongs to the open-source TensorFlow ecosystem, covering end-to-end machine learning workflow. So, after preprocessing you can train an ML model on the same platform.<br>
 Librosa is an open-source Python library that has almost everything you need for audio and music analysis. It enables displaying characteristics of audio files, creating all types of audio data visualizations, and extracting features from them, to name just a few capabilities.
 
 <br>
